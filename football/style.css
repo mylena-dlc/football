@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#card{    
+    height: 600px;
+    width: 100%;
+}
+
+.equipe{
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.card_equipe{
+    height: 200px;
+    width: 20%;
+    background-color: rgb(199, 102, 103);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(172, 172, 172);
+    text-align: left;
+    padding-left: 10px;
+    font-size: small;
+    padding: 3%;
+
+}
+
+
+.joueur{
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.card_joueur{
+    height: 200px;
+    width: 20%;
+    background-color: rgb(93, 131, 179);
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: small;
+    box-shadow: 5px 5px 5px rgb(172, 172, 172);
+    padding: 3%;
+}
+
+.equipe_joueur{
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.card_carriere{
+    height: 200px;
+    width: 20%;
+    background-color: rgb(90, 175, 94);
+    border-radius: 10px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: small;
+    box-shadow: 5px 5px 5px rgb(172, 172, 172);
+    padding: 3%;
+}
+
+
+
+
+
+
+
